@@ -9,3 +9,6 @@ The goal of this program is to visualize the relationships between word usage wi
   - An additional 'Generate_Plots.R' file has been included to show how to loop through every possible plot
   - Network diagrams look for the top n relationships between words by paragraph, sentence, or title and also include certain
     network statistics of the final plot.
+
+
+Some sample plots have been included in this repo.
