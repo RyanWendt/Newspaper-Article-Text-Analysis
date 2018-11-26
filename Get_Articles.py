@@ -39,6 +39,6 @@ def importdata(url, name):
 
 #Reads every row in the Articles.csv file contained in the same directory as this python file. 
 #Based on the entries in this file, loops through every url and runs the importdata function.
-article_list=pd.read_csv(r'Articles.csv')
-for index,row in article_list.iterrows():
+paper_list=pd.read_csv(r'Papers.csv')
+for index,row in paper_list.iterrows():
 	importdata(row['url'], row['name'])
