@@ -1,7 +1,8 @@
 The goal of this program is to visualize the relationships between word usage with different online news sources. There are two steps:
 1. A Python (3.x) program ('Get_Articles.py') to download raw artice text into broken up json files 
   - This is mean to be used with a 'Papers.csv' file contained in the same folder location contain a comma-delimited list of url
-    and newspaper names for the program to process.
+    and newspaper names for the program to process. My sample is meant to include a list of websites of
+    varying levels of seriousness and political direction. Feel free to try out other websites you can think of!
   - Toggling the "memoize_articles" option as part of the newspaper package may be of interest. This option essentially determines 
     whether the program will remember to download articles it previously downloaded.
 
